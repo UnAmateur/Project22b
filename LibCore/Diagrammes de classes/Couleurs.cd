@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibCore.Couleurs.Cmjk" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACQAAAAAAAAEABAAQAUAAAARAAAEAAEAAAAMAAA=</HashCode>
+      <FileName>Couleurs\Cmjk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurBase" Collapsed="true">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAQAAAgAAAAAAAAAAAgAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Couleurs\CouleurBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurComplexe" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Couleurs\CouleurComplexe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurSimple" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Couleurs\CouleurSimple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Lab" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAUAAAA=</HashCode>
+      <FileName>Couleurs\Lab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Rgb" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoNQBjCAAAAAQAAEgAIASAUABAIRgIEmCAGAAgAFAQQ=</HashCode>
+      <FileName>Couleurs\Rgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Couleurs.Tsl" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASACAAAAAAAAAEAAAAYAUgFAARAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Couleurs\Tsl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.WorkingSpace" Collapsed="true">
+    <Position X="19" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAggAEAAAAAAAABAAAAAAAAAAAABABAAA=</HashCode>
+      <FileName>Couleurs\WorkingSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.XYZ" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Couleurs\XYZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Yxy" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAQAAYAA=</HashCode>
+      <FileName>Couleurs\Yxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.WorkingSpaceCalcul" Collapsed="true">
+    <Position X="21.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAIAAgCAAAIMAgBAIAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Couleurs\WorkingSpaceCalcul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Core" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

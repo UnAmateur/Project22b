@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibCore.Formules.Calculatrice" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAAAIAAAAIAoCAANAARADIAAAAkCQACEAAEgE=</HashCode>
+      <FileName>Formules\Calculatrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Core" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.ErreurEventArgs" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Formules\ErreurEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.ItemVariable" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAgAABQAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Formules\ItemVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.Operateurs" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAChACAA2BiIAEAAAAAAAAgAFJAggAQgBABEBAABI=</HashCode>
+      <FileName>Formules\Operateurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

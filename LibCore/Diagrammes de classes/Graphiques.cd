@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibCore.Controles.Graphiques.GraphBase" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgCAAIAwECAAIgAwgHCAWAACgAgiAQAAAAAAAAAESAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCourbe" Collapsed="true">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAACCAAAAAAgCAEAACAAAAAAAIBAAAAABAAAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphCourbe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphGradient" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgiABAAwECAIIgBChBCADJACAQAkAABAAAQAAAEAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphGradient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.WorkingSpaceChoixControle" Collapsed="true">
+    <Position X="16.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABgAIyAACACBggQAACAAAACsIgiAACAAAACAAiSoAA=</HashCode>
+      <FileName>Controles\Graphiques\WorkingSpaceChoixControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.CoreControle" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAACAIQACAAAAAAAQAAAAEAQAAAA=</HashCode>
+      <FileName>Controles\CoreControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCurseur" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCAFAAwEAAIMgBChBAECBAAAQAkAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Controles\Graphiques\GraphCurseur.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphRgb" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCABAAwECAIIgAChJCACBACAQAkAgAQAAAEAACAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphRgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

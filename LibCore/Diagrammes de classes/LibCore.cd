@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibCore.Controles.CoreControle" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAACAIQACAAAAAAAQAAAAEAQAAAE=</HashCode>
+      <FileName>Controles\CoreControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphBase" Collapsed="true">
+    <Position X="1" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgCAAIAwECAAIgAwgHCAWAACgAgiAQAAAAAAAAAESAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Core" Collapsed="true">
+    <Position X="46.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Cmjk" Collapsed="true">
+    <Position X="81.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACQAAAAAAAAEABAAQAUAAAARAAAEAAEAAAAMAAA=</HashCode>
+      <FileName>Couleurs\Cmjk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurBase" Collapsed="true">
+    <Position X="76.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAQAAAgAAAAAAAAAAAgAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Couleurs\CouleurBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurComplexe" Collapsed="true">
+    <Position X="72.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Couleurs\CouleurComplexe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.CouleurSimple" Collapsed="true">
+    <Position X="79.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Couleurs\CouleurSimple.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Lab" Collapsed="true">
+    <Position X="70.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAUAAAA=</HashCode>
+      <FileName>Couleurs\Lab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Rgb" Collapsed="true">
+    <Position X="77.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IoNQBjCAAAAAQAQEgAIASAUABAIRgIEmCAGAAgAFAyQ=</HashCode>
+      <FileName>Couleurs\Rgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Couleurs.Tsl" Collapsed="true">
+    <Position X="79.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASACAAAAAAAAAEAAAAYAUgFAARAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Couleurs\Tsl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.WorkingSpace" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAggAEAAAAAAAABAAAAAAAAAAAABABAAA=</HashCode>
+      <FileName>Couleurs\WorkingSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.WorkingSpaceCalcul" Collapsed="true">
+    <Position X="49.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAIAAAAAAAIAAgCAAAIMAgBAIAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Couleurs\WorkingSpaceCalcul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.XYZ" Collapsed="true">
+    <Position X="72.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Couleurs\XYZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Couleurs.Yxy" Collapsed="true">
+    <Position X="75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAQAAYAA=</HashCode>
+      <FileName>Couleurs\Yxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefArray&lt;T&gt;" Collapsed="true">
+    <Position X="42.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefArray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefAxe" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAiAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefCouleur" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAggAAAAAAQAAAAAAACAAEAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefCouleur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefCrayon" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAgDAAAAIAAAAAAAAAAAEAAAAAIAAABIAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefCrayon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefCurseur" Collapsed="true">
+    <Position X="20.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAAAAAAAAAAAAAGAABAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefCurseur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefDict&lt;T&gt;" Collapsed="true">
+    <Position X="29.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefDict.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGamma" Collapsed="true">
+    <Position X="86.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAACAAAAAAgAAkAAAAAAAoAAAAAEAAAQAIAAAACAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGamma.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGammaBase" Collapsed="true">
+    <Position X="36" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAkAAEAAAQIAAAAAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGammaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGammaL" Collapsed="true">
+    <Position X="38.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGammaL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGammaRgb" Collapsed="true">
+    <Position X="33.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGammaRgb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGammaValeur" Collapsed="true">
+    <Position X="36" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGammaValeur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGraduation" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAACAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGraduation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGraphique" Collapsed="true">
+    <Position X="31.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAABAAAAAAAAAAAAgAAAAEAAACAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGraphique.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefGraphiqueBase" Collapsed="true">
+    <Position X="31.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefGraphiqueBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.Definition" Collapsed="true">
+    <Position X="29.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAIAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\Definition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefMatrice" Collapsed="true">
+    <Position X="40.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAEAAAAAAgAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefMatrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefPinceau" Collapsed="true">
+    <Position X="22.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAEAAAAAAAAAAAAAEAAQAAAAAAAAAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefPinceau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefPoint" Collapsed="true">
+    <Position X="18" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAYAAAAAAAAAAEAAAAAAAAAAYAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefPolice" Collapsed="true">
+    <Position X="24.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAADAA=</HashCode>
+      <FileName>Parametrages\Definitions\DefPolice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Noeud" Collapsed="true">
+    <Position X="29.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgKAAIAAAAAAECAgAAAAGAAFAAAAAAAAAhABAAAA=</HashCode>
+      <FileName>Parametrages\Noeud.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Parametrages.ParametreBase" Collapsed="true">
+    <Position X="55.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgoAgCAAAARAICAgAAAAAAAAAAAAAgEIABAAAAAA=</HashCode>
+      <FileName>Parametrages\ParametreBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.ParametreConfig" Collapsed="true">
+    <Position X="54.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAIAAAAAAAAgAAAAAAAAgAAAAAAAAIA=</HashCode>
+      <FileName>Parametrages\ParametreConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.ParametreCouleurs" Collapsed="true">
+    <Position X="56.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAEAABACAgAABBBAQABAAgAAAIAAAQAE=</HashCode>
+      <FileName>Parametrages\ParametreCouleurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.ParametreLangues" Collapsed="true">
+    <Position X="59" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>Parametrages\ParametreLangues.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Parametres" Collapsed="true">
+    <Position X="91" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAACgAAAQAQAAgAAAAAAAAAAAQAAAAAEAAAAAA=</HashCode>
+      <FileName>Parametrages\Parametres.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.ParametreThemes" Collapsed="true">
+    <Position X="52" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAAgAAAAAAAoAQAAAAAAAAAAAgAAAAgAAAAA=</HashCode>
+      <FileName>Parametrages\ParametreThemes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesBase" Collapsed="true">
+    <Position X="64.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cwAAAAAwFCAAMgAQhlACQABAAABgQEgAACAAAAAAUAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesGraphiques" Collapsed="true">
+    <Position X="68" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesGraphiques.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesThemes" Collapsed="true">
+    <Position X="68.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAYBYQBAALOYAA4BOBieIADgEgAAcABgQABCAAACAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesThemes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbes" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIQAEAAAAAAghAQCAAABAQAAAAAAAAECAAAAABWIAA=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbesList" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGIAAEAAAAAAABAQCAAAJAQAAAAAAAAECAAIAABQIAA=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbesList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.GraphPoint" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAgAAAIBIsgAAIAgAAAAAIgAAQAAAAAAAAAACAAA=</HashCode>
+      <FileName>Controles\Courbes\GraphPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbesSelect" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAQAAAgCAAAAgIARBAAQAAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbesSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCourbe" Collapsed="true">
+    <Position X="1" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAACCAAAAAAgCAEAACAAAAAAAIBAAAAABAAAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphCourbe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.WorkingSpaceChoixControle" Collapsed="true">
+    <Position X="7.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABgAIyAACACBggQAACAAAACsIgiAACAAAACAAiSoAA=</HashCode>
+      <FileName>Controles\Graphiques\WorkingSpaceChoixControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.Operateurs" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAwAChACAA2BiIAEAAAAAAAAgAFJAggAQgAABEBAABI=</HashCode>
+      <FileName>Formules\Operateurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefOperateurs" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAIAAAIAAAAAEBAAAAAAAAJCQA=</HashCode>
+      <FileName>Parametrages\Definitions\DefOperateurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.Calculatrice" Collapsed="true">
+    <Position X="84" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAAAIAAAAIAoCAANAAxADIAAAAkCQACEAAEgE=</HashCode>
+      <FileName>Formules\Calculatrice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.ErreurEventArgs" Collapsed="true">
+    <Position X="8.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Formules\ErreurEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formules.ItemVariable" Collapsed="true">
+    <Position X="88.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAgAABQAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>Formules\ItemVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Parametrages.Definitions.DefToken" Collapsed="true">
+    <Position X="45" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAwAMAAgCAAIAIAAAAAEBAAAAAAAABAQA=</HashCode>
+      <FileName>Parametrages\Definitions\DefOperateurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesGradient" Collapsed="true">
+    <Position X="63.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAAAQAAAEEACg=</HashCode>
+      <FileName>Controles\Donnees\DonneesGradient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesRgb" Collapsed="true">
+    <Position X="61.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAwAAgAAAAgAAAAACAEAAACAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesRgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphGradient" Collapsed="true">
+    <Position X="3.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgiABAAwECAIIgBChBCADJACAQAkAABAAAQAAAEAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphGradient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphRgb" Collapsed="true">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCABAAwECAIIgAChJCACBACAQAkAgAQAAAEAACAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphRgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesCurseurs" Collapsed="true">
+    <Position X="63.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAABQgAASIIAgAKAAAALBAAAQAEAEFAACQAAQBAgCA=</HashCode>
+      <FileName>Controles\Donnees\DonneesCurseurs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.ValeurEventArgs" Collapsed="true">
+    <Position X="10.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Controles\Donnees\ValeurEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="10.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibCore.Controles.ChoixRgb" Collapsed="true">
+    <Position X="10.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACCAAABAAAACCAAACAAAAAAAAAAgAAQAAACU=</HashCode>
+      <FileName>Controles\ChoixRgb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.CouleurEventArg&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="14.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\CouleurEventArg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.CoreChoix&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesTsl" Collapsed="true">
+    <Position X="65.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesTsl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCurseur" Collapsed="true">
+    <Position X="17.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCAFAAwEAAIMgBChBAECBAAAQAkAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Controles\Graphiques\GraphCurseur.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.ChoixCmjk" Collapsed="true">
+    <Position X="15.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACCAQBCAAAAAAAAIAhAAQAAACE=</HashCode>
+      <FileName>Controles\ChoixCmjk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.ChoixTsl" Collapsed="true">
+    <Position X="13" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAABAAAACAAAACAAAAgCAgAAgAAQAAACE=</HashCode>
+      <FileName>Controles\ChoixTsl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphTsl" Collapsed="true">
+    <Position X="19.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCQBAIwECAIIgAChBSACBACgQAkAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Controles\Graphiques\GraphTsl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Formulaires.ChoixCouleurs" Collapsed="true">
+    <Position X="0.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAEQgABCAIABAKAACACAACBAAAAABgAAAAAAAAgQA=</HashCode>
+      <FileName>Formulaires\ChoixCouleurs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formulaires.CoreFormes" Collapsed="true">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAACAAQACAAAAAAAQAAAAEAAAQAE=</HashCode>
+      <FileName>Formulaires\CoreFormes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formulaires.ChargementImage" Collapsed="true">
+    <Position X="5.25" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formulaires\ChargementImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Formulaires.ChoixWorkingSpace" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAACAAAAAAAACAAAACBAAAAFBAIABAAAAAAAA=</HashCode>
+      <FileName>Formulaires\ChoixWorkingSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesBase" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAwECAAIgAAhBAAAAAAAAAgAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesThemes" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAwAGAAWAAAgAgAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesThemes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesRgb" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesRgb.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesGradient" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesGradient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesCurseurs" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAABAAAAAAIAAACAAAACBAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesCurseurs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesTsl" Collapsed="true">
+    <Position X="91" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesTsl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LibCore.TypeSelecteur" Collapsed="true">
+    <Position X="96.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeSelectTheme" Collapsed="true">
+    <Position X="91" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeGraphTheme" Collapsed="true">
+    <Position X="94.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAABAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeCurseur" Collapsed="true">
+    <Position X="94.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypePoint" Collapsed="true">
+    <Position X="92.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAACAAAAAAAIAAAAAAJgCAAAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeGamma" Collapsed="true">
+    <Position X="96.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAQAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeSens" Collapsed="true">
+    <Position X="92.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypePosition" Collapsed="true">
+    <Position X="94.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAgAIIAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeCourbes" Collapsed="true">
+    <Position X="92.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeGraduation" Collapsed="true">
+    <Position X="92.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAgAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeGris" Collapsed="true">
+    <Position X="96.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAABAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeItemTokens" Collapsed="true">
+    <Position X="91" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAABAAAgAABAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeAssociation" Collapsed="true">
+    <Position X="91" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAACAAAAAAAAAAAAAAAABAAAAEAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LibCore.TypeGradient" Collapsed="true">
+    <Position X="91" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="LibCore.Controles.Courbes.CalculGraphique" Collapsed="true">
+    <Position X="91" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Courbes\GraphPoint.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

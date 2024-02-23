@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibCore.Controles.CoreControle" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAAAAAAACAIQACAAAAAAAQAAAAEAQAAAE=</HashCode>
+      <FileName>Controles\CoreControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbes" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIQAEAAAAAAghAQCAAABAQAAAAAAAAECAAAAABWIAA=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbesList" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGIAAEAAAAAAABAQCAAAJAQAAAAAAAAECAAIAABQIAA=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbesList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.CoreCourbesSelect" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAQAAAgCAAAAgIARBAAQAAAAAAAAAAAAAAgI=</HashCode>
+      <FileName>Controles\Courbes\CoreCourbesSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Courbes.GraphPoint" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABAgAAAIBIsgAAIAgAAAAAIgAAQAAAAAAAAAACAAA=</HashCode>
+      <FileName>Controles\Courbes\GraphPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesBase" Collapsed="true">
+    <Position X="10.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cwAAAAAwFCAAMgAQhlACQABAAABgQEgAACAAAAAAUAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesGraphiques" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesGraphiques.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesThemes" Collapsed="true">
+    <Position X="13.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAYBYQBAALOYAA4BOBieIADgEgAAcABgQABCAAACAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesThemes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphBase" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgCAAIAwECAAIgAwgHCAWAACgAgiAQAAAAAAAAAESAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCourbe" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAACCAAAAAAgCAEAACAAAAAAAIBAAAAABAAAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphCourbe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.WorkingSpaceChoixControle" Collapsed="true">
+    <Position X="13.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABgAIyAACACBggQAACAAAACsIgiAACAAAACAAiSoAA=</HashCode>
+      <FileName>Controles\Graphiques\WorkingSpaceChoixControle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Core" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphRgb" Collapsed="true">
+    <Position X="19" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCABAAwECAIIgAChJCACBACAQAkAgAQAAAEAACAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphRgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesRgb" Collapsed="true">
+    <Position X="9" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAwAAgAAAAgAAAAACAEAAACAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesRgb.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesGradient" Collapsed="true">
+    <Position X="6.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAAAQAAAEEACg=</HashCode>
+      <FileName>Controles\Donnees\DonneesGradient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphGradient" Collapsed="true">
+    <Position X="16.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgiABAAwECAIIgBChBCADJACAQAkAABAAAQAAAEAQAA=</HashCode>
+      <FileName>Controles\Graphiques\GraphGradient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesCurseurs" Collapsed="true">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAABQgAASIIAgAKAAAALBAAAQAEAEFAACQAAQBAgCA=</HashCode>
+      <FileName>Controles\Donnees\DonneesCurseurs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.ChoixRgb" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAACCAAABAAAACCAAACAAAAAAAAAAgAAQAAACU=</HashCode>
+      <FileName>Controles\ChoixRgb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.ValeurEventArgs" Collapsed="true">
+    <Position X="11.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Controles\Donnees\ValeurEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.EventArgs" Collapsed="true">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="LibCore.Controles.CouleurEventArg&lt;T&gt;" Collapsed="true">
+    <Position X="14" Y="11.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\CouleurEventArg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Donnees.DonneesTsl" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesTsl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphCurseur" Collapsed="true">
+    <Position X="21.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCAFAAwEAAIMgBChBAECBAAAQAkAAAAAAAAAAAAQAI=</HashCode>
+      <FileName>Controles\Graphiques\GraphCurseur.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.ChoixCmjk" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACCAQBCAAAAAAAAIAhAAQAAACE=</HashCode>
+      <FileName>Controles\ChoixCmjk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.ChoixTsl" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAABAAAACAAAACAAAAgCAgAAgAAQAAACE=</HashCode>
+      <FileName>Controles\ChoixTsl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.CoreChoix&lt;T&gt;" Collapsed="true">
+    <Position X="23.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEACA=</HashCode>
+      <FileName>Controles\CoreChoix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibCore.Controles.Graphiques.GraphTsl" Collapsed="true">
+    <Position X="25.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OgCQBAIwECAIIgAChBSACBACgQAkAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Controles\Graphiques\GraphTsl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibCore.Controles.CoreChoix&lt;T&gt;" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesBase" Collapsed="true">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgAAAAAwECAAIgAAhBAAAAAAAAAgAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesThemes" Collapsed="true">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAwAGAAWAAAgAgAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesThemes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesRgb" Collapsed="true">
+    <Position X="6.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesRgb.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesGradient" Collapsed="true">
+    <Position X="4" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesGradient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesCurseurs" Collapsed="true">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAABAAAAAAIAAACAAAACBAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\IDonneesCurseurs.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LibCore.Controles.Donnees.IDonneesTsl" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Donnees\DonneesTsl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="LibCore.Controles.Courbes.CalculGraphique" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controles\Courbes\GraphPoint.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

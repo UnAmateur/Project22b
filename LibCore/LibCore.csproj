@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D1DB7D57-4448-4E82-852D-B0EFB204391E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibCore</RootNamespace>
+    <AssemblyName>LibCore</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controles\ChoixCmjk.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ChoixCmjk.Designer.cs">
+      <DependentUpon>ChoixCmjk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\ChoixRgb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ChoixRgb.Designer.cs">
+      <DependentUpon>ChoixRgb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\CoreChoix.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\CoreChoix.Designer.cs">
+      <DependentUpon>CoreChoix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\CoreControle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\CoreControle.Designer.cs">
+      <DependentUpon>CoreControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\CouleurEventArg.cs" />
+    <Compile Include="Controles\Courbes\CoreCourbes.cs" />
+    <Compile Include="Controles\Courbes\CoreCourbesList.cs" />
+    <Compile Include="Controles\Courbes\CoreCourbesSelect.cs" />
+    <Compile Include="Controles\Courbes\GraphPoint.cs" />
+    <Compile Include="Controles\Donnees\DonneesBase.cs" />
+    <Compile Include="Controles\Donnees\DonneesCurseurs.cs" />
+    <Compile Include="Controles\Donnees\DonneesGradient.cs" />
+    <Compile Include="Controles\Donnees\DonneesGraphiques.cs" />
+    <Compile Include="Controles\Donnees\DonneesRgb.cs" />
+    <Compile Include="Controles\Donnees\DonneesThemes.cs" />
+    <Compile Include="Controles\Donnees\DonneesTsl.cs" />
+    <Compile Include="Controles\Donnees\IDonneesCurseurs.cs" />
+    <Compile Include="Controles\Donnees\IDonneesGradient.cs" />
+    <Compile Include="Controles\Donnees\IDonneesRgb.cs" />
+    <Compile Include="Controles\Donnees\ValeurEventArgs.cs" />
+    <Compile Include="Controles\ChoixTsl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ChoixTsl.Designer.cs">
+      <DependentUpon>ChoixTsl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphCurseur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Donnees\IDonneesBase.cs" />
+    <Compile Include="Controles\Donnees\IDonneesThemes.cs" />
+    <Compile Include="Controles\Graphiques\GraphBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphBase.Designer.cs">
+      <DependentUpon>GraphBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphCourbe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphCourbe.Designer.cs">
+      <DependentUpon>GraphCourbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphGradient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphGradient.Designer.cs">
+      <DependentUpon>GraphGradient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphRgb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphRgb.Designer.cs">
+      <DependentUpon>GraphRgb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphTsl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\GraphTsl.Designer.cs">
+      <DependentUpon>GraphTsl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controles\Graphiques\WorkingSpaceChoixControle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\Graphiques\WorkingSpaceChoixControle.Designer.cs">
+      <DependentUpon>WorkingSpaceChoixControle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ChargementImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ChargementImage.Designer.cs">
+      <DependentUpon>ChargementImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\ChoixCouleurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ChoixCouleurs.Designer.cs">
+      <DependentUpon>ChoixCouleurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core.cs" />
+    <Compile Include="Couleurs\Cmjk.cs" />
+    <Compile Include="Couleurs\CouleurBase.cs" />
+    <Compile Include="Couleurs\CouleurComplexe.cs" />
+    <Compile Include="Couleurs\CouleurSimple.cs" />
+    <Compile Include="Couleurs\Lab.cs" />
+    <Compile Include="Couleurs\Rgb.cs" />
+    <Compile Include="Couleurs\Tsl.cs" />
+    <Compile Include="Couleurs\WorkingSpace.cs" />
+    <Compile Include="Couleurs\WorkingSpaceCalcul.cs" />
+    <Compile Include="Couleurs\XYZ.cs" />
+    <Compile Include="Couleurs\Yxy.cs" />
+    <Compile Include="EnumType.cs" />
+    <Compile Include="Formulaires\ChoixWorkingSpace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\ChoixWorkingSpace.Designer.cs">
+      <DependentUpon>ChoixWorkingSpace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\CoreFormes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\CoreFormes.Designer.cs">
+      <DependentUpon>CoreFormes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formules\Calculatrice.cs" />
+    <Compile Include="Formules\ErreurEventArgs.cs" />
+    <Compile Include="Formules\ItemVariable.cs" />
+    <Compile Include="Formules\Operateurs.cs" />
+    <Compile Include="Parametrages\Definitions\DefArray.cs" />
+    <Compile Include="Parametrages\Definitions\DefAxe.cs" />
+    <Compile Include="Parametrages\Definitions\DefCouleur.cs" />
+    <Compile Include="Parametrages\Definitions\DefCrayon.cs" />
+    <Compile Include="Parametrages\Definitions\DefCurseur.cs" />
+    <Compile Include="Parametrages\Definitions\DefDict.cs" />
+    <Compile Include="Parametrages\Definitions\DefGamma.cs" />
+    <Compile Include="Parametrages\Definitions\DefGammaBase.cs" />
+    <Compile Include="Parametrages\Definitions\DefGammaL.cs" />
+    <Compile Include="Parametrages\Definitions\DefGammaRgb.cs" />
+    <Compile Include="Parametrages\Definitions\DefGammaValeur.cs" />
+    <Compile Include="Parametrages\Definitions\DefGraduation.cs" />
+    <Compile Include="Parametrages\Definitions\DefGraphique.cs" />
+    <Compile Include="Parametrages\Definitions\DefGraphiqueBase.cs" />
+    <Compile Include="Parametrages\Definitions\Definition.cs" />
+    <Compile Include="Parametrages\Definitions\DefMatrice.cs" />
+    <Compile Include="Parametrages\Definitions\DefOperateurs.cs" />
+    <Compile Include="Parametrages\Definitions\DefPinceau.cs" />
+    <Compile Include="Parametrages\Definitions\DefPoint.cs" />
+    <Compile Include="Parametrages\Definitions\DefPolice.cs" />
+    <Compile Include="Parametrages\Noeud.cs" />
+    <Compile Include="Parametrages\ParametreBase.cs" />
+    <Compile Include="Parametrages\ParametreConfig.cs" />
+    <Compile Include="Parametrages\ParametreCouleurs.cs" />
+    <Compile Include="Parametrages\ParametreLangues.cs" />
+    <Compile Include="Parametrages\Parametres.cs" />
+    <Compile Include="Parametrages\ParametreThemes.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibMath\LibMath.csproj">
+      <Project>{1ac88853-49d2-456b-b2a7-7ddfe22b9458}</Project>
+      <Name>LibMath</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\ChoixCmjk.resx">
+      <DependentUpon>ChoixCmjk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ChoixRgb.resx">
+      <DependentUpon>ChoixRgb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\CoreControle.resx">
+      <DependentUpon>CoreControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\ChoixTsl.resx">
+      <DependentUpon>ChoixTsl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controles\Graphiques\WorkingSpaceChoixControle.resx">
+      <DependentUpon>WorkingSpaceChoixControle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ChoixCouleurs.resx">
+      <DependentUpon>ChoixCouleurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\ChoixWorkingSpace.resx">
+      <DependentUpon>ChoixWorkingSpace.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrammes de classes\Controles.cd" />
+    <None Include="Diagrammes de classes\Couleurs.cd" />
+    <None Include="Diagrammes de classes\Donnees.cd" />
+    <None Include="Diagrammes de classes\Formules.cd" />
+    <None Include="Diagrammes de classes\Graphiques.cd" />
+    <None Include="Diagrammes de classes\LibCore.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
